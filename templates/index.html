@@ -1,42 +1,62 @@
 {% extends "base.html" %}
 
 {% block content %}
-
-{% if current_user.is_authenticated %}
-<h1 style="text-align: center; color: #821902; font-weight: bold; margin-bottom: 40px">Список игр</h1>
-<div id	="igri">
-	<div>
-		<img style="margin-right: 200px; width: 200px; height: 200px" src="../static/img/Flappy_Bird_logo.jpg">
-		<a class="hip" style="margin-right: 125px;" href="/game1"><h2>Flappy Coin</h2></a>
-
-	</div>
-	<div>
-		<img style="width: 200px; height: 200px" src="../static/img/logo2.png">
-		<a class="hip" href="/game2"><h2>Ponzi Cheme</h2></a>
-	</div>
-	<div>
-		<img style="margin-left: 200px; width: 200px; height: 200px" src="../static/img/logo3.png">
-		<a class="hip" style="margin-left: 200px; " href="/game2"><h2>Coinsweeper &nbsp </h2></a>
-
-	</div>
+<div id="banner">
+    <!-- <img src="../static/img/bg1.jpg" style="height: 1059px;" alt=""> -->
+    <div id="banner-text-1">ЭТНОПОЛИС</div>
+    <div id="banner-text-2">Сайт по культуре Великой России</div>
 </div>
-	
-{% else %}
-<div id="best_site">
-	<a href="/register" ><img id="img" src="../static/img/best_site.jpg" style="border-radius: 70px; margin-top: 0px;"></a>
-</div>
-<div id="i1">
-	<p> <img src="../static/img/logo1.png" style="width: 386.61px; height: 92px;"> <h3> - Веб-сервис, обучающий финансовой граммотности</h3>
-	</p>
+<div id="choose">
+    <a href="#"><div id="choose-1">
+        <div><p>Народы</p>
+        </div>
 
+    </div></a>
+    <a href="#"><div id="choose-2">
+        <div><p>Культурные</p>
+             <p>сооружения</p></div>
+    </div></a>
+    <a href="#"><div id="choose-3">
+        <div><p>Интересные</p> 
+             <p>факты</p></div>
+    </div>  </a>
 </div>
-<div>
-	<div>
-
-	</div>
-	<div>
-
-	</div>
+<div id="map">
+    <h1>Карта России</h1>
+    <img src="../static/img/map.png" id="mapp" alt="">
+    <a href="#"><img src="../static/img/russ.png" id="msc" alt=""></a>
+    <a href="#"><img src="../static/img/yakut.png" id="yakut" alt=""></a>
+    <a href="#"><img src="../static/img/tuwi.png" id="tuwi" alt=""></a>
+    <a href="#"><img src="../static/img/hunti.png" id="hunti" alt=""></a>
+    <a href="#"><img src="../static/img/bash.png" id="bash" alt=""></a>
+    <a href="#"><img src="../static/img/udm.png" id="udm" alt=""></a>
+    <a href="#"><img src="../static/img/komi.png" id="komi" alt=""></a>
+    <a href="#"><img src="../static/img/nen.png" id="nen" alt=""></a>
+    <a href="#"><img src="../static/img/chuk.png" id="chuk" alt=""></a>
+    <a href="#"><img src="../static/img/nan.png" id="nan" alt=""></a>
+    <div id="map-info1"><p>Россия  - государство в Восточной Европе и
+         Северной Азии. Это крупнейшее государство в
+          мире, его территория в международно признанных
+           границах составляет 17 234 031 км².</p></div>
+        <div id="map-info2"><p>Наша страна многонациональна, на её территории 
+        проживает более 190 этнических групп.
+        В России насчитывается более 270 родных языков и диалектов.</p></div>
 </div>
-{% endif %}
+<footer id="podval">
+    <div id="futer">   
+        <div id="dop">
+            <h2>Дополнительно</h2>
+            <a href="#"><p>О нас</p></a>
+        </div>
+        <div id="gorlin">
+            <h2>Горячая Линия</h2>
+            <p>+7 900 876 55 44</p>
+        </div>
+        <div id="addr">
+            <h2>Адрес</h2>
+            <p>ул. Космонавтов, 20/3,</p>
+            <p> Липецк, Липецкая обл</p>
+        </div>
+    </div>
+</footer>
 {% endblock %}

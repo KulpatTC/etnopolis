@@ -9,7 +9,7 @@ body {
     font-family: 'Unbounded';
     color: #14A64C;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     background-color: #3B493E;
     border-color: #3B493E;
 }
@@ -35,4 +35,238 @@ ul{
 #li1 {
     border-radius: 8px;
     padding-top: 8px;
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-size: 28px;
+}
+
+#banner
+{
+    width: 99.2vw;
+    height: 900px;
+    background-size: 50%;
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    align-content: center;
+    
+}
+
+#banner-text-1 {
+    font-family: 'Yeseva one';
+    font-weight: 400;
+    font-size: 94px;
+    text-decoration: underline;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+
+#banner-text-2 {
+    font-family: 'Yeseva one';
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+
+#choose {
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    width: 85vw;
+    display: flex;
+  justify-content: center;
+  margin-left: 130px;
+  
+}
+
+#choose-1 {
+    width: 490px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url('../img/ch1.jpg');
+    background-size: cover;
+    border-radius: 50px;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+#choose-2 {
+    width: 490px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url('../img/ch2.jpg');
+    background-size: cover;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+    color:#FFFFFF;
+}
+
+#choose-3 {
+    width: 490px;
+    height: 300px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url('../img/ch3.jpg');
+    background-size: cover;
+    border-radius: 50px;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+#choose p {
+    margin-left: 15px;
+}
+
+#choose a {
+    text-decoration: none;
+}
+
+#map {
+    color: #FFFFFF;
+    font-family: 'Unbounded';
+    font-weight: 500;
+    background-color: #314535;   
+    height: 1100px;
+    width: 100vw;
+    position: relative; 
+    display: inline-block;
+}
+
+#map-info1
+{
+    width: 40vw;
+    float: left;
+}
+
+#map-info1 p
+{
+    margin-left: 100px;
+}
+
+#map-info2
+{
+    float: right;
+    width: 40vw;
+}
+#map h1 {
+    font-size: 36px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+#map p {
+    font-size: 20px;
+
+}
+
+#mapp {
+    width: 75vw;
+    height: auto;
+    margin-left: 200px;
+    z-index: 10;
+}
+
+#podval {
+    color:#FFFFFF;
+    font-family: 'Unbounded';
+    
+    width: 99.5vw;
+    background-color: #242E26;
+    height: 400px;
+}
+#futer
+{
+    display: flex;
+
+}
+#futer h2 {
+    font-size: 32px;
+}
+
+#futer p {
+    font-size: 24px;
+}
+#dop {
+    padding-top: 170px;
+    padding-left: 230px;
+    width: auto;
+}
+#gorlin {
+    padding-top: 170px;
+    padding-left: 230px;
+    width: auto;
+}
+#addr {
+    padding-top: 170px;
+    padding-left: 230px;
+    width: auto;
+}
+#msc {
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    top: 518px;
+    right: 1420px
+}
+#yakut {
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    top: 530px;
+    right: 650px
+}
+#tuwi {
+    position: absolute;
+    width: 84px;
+    height: 20px;
+    top: 864px;
+    right: 947px
+}
+#hunti {
+    position: absolute;
+    width: 84px;
+    height: 20px;
+    top: 610px;
+    right: 1147px
+}
+#bash {
+    position: absolute;
+    width: 88px;
+    height: 18px;
+    top: 680px;
+    right: 1297px
+}
+#udm {
+    position: absolute;
+    width: 88px;
+    height: 20px;
+    top: 605px;
+    right: 1287px
+}
+#komi {
+    position: absolute;
+    width: 86px;
+    height: 18px;
+    top: 460px;
+    right: 1316px
+}
+#nen {
+    position: absolute;
+    width: 86px;
+    height: 19px;
+    top: 450px;
+    right: 1156px
+}
+#nan {
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    top: 665px;
+    right: 500px
+}
+#chuk {
+    position: absolute;
+    width: 86px;
+    height: 19px;
+    top: 330px;
+    right: 410px
 }

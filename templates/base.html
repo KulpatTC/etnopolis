@@ -16,11 +16,11 @@
 <header>
     <nav class="navbar navbar-light" style="background-color: #3B493E;">
         <a class="navbar-brand" href="/" style="margin-bottom: 10px;">
-            <img src="#" alt="">
+            <img src="../static/img/logo-mascot.png" style="width: 80px; height: 66px; margin-left: 13px;" alt="">
         </a>
         {% if current_user.is_authenticated %}
         <ul id="list1">
-            <li id="li1"><a class="navbar-brand" id="navbar-b">{{ current_user.name }} {{ current_user.surname }}</a></li>
+            <li id="li1"><a class="navbar-brand" id="navbar-b">Очков: {{ current_user.score }}</a></li>
             <li><a class="btn btn-primary" href="/logout" id="but-aut">Выйти</a></li>
         </ul>
         {% else %}
@@ -32,8 +32,6 @@
     </nav>
 </header>
 <!-- Begin page content -->
-<main role="main" class="container">
     {% block content %}{% endblock %} 
-</main>
 </body>
 </html>
