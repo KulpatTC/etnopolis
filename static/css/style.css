@@ -5,7 +5,7 @@ body {
 
 #but-aut
 {
-    padding-top: auto;
+    padding-top: 13.5px;
     font-family: 'Unbounded';
     color: #14A64C;
     font-weight: 500;
@@ -13,6 +13,7 @@ body {
     align-items: center;
     background-color: #3B493E;
     border-color: #3B493E;
+
 }
 
 #list1 {
@@ -33,7 +34,8 @@ body {
 #navbar-b {
     color:#14A64C;
     font-family: 'Unbounded';
-    font-size: 28px; 
+    font-size: 22px; 
+    font-weight: 500;
 }
 
 ul{
