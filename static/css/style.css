@@ -5,11 +5,12 @@ body {
 
 #but-aut
 {
-    margin-top: auto;
+    padding-top: auto;
     font-family: 'Unbounded';
     color: #14A64C;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 22px;
+    align-items: center;
     background-color: #3B493E;
     border-color: #3B493E;
 }
@@ -52,7 +53,7 @@ ul{
     width: 99.2vw;
     height: 900px;
     background-size: 50%;
-    background-image: url('../img/bg1.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bg1.jpg');
     background-size: cover;
     align-content: center;
 }
@@ -247,7 +248,7 @@ ul{
 #map {
     color: #FFFFFF;
     font-family: 'Unbounded';
-    font-weight: 500;
+    font-weight: 400;
     background-color: #314535;   
     height: 1100px;
     width: 99.2vw;
@@ -294,7 +295,7 @@ ul{
     
     width: 99.2vw;
     background-color: #242E26;
-    height: 400px;
+    height: 300px;
 }
 #futer
 {
@@ -302,25 +303,25 @@ ul{
 
 }
 #futer h2 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 #futer p {
-    font-size: 24px;
+    font-size: 18px;
 }
 #dop {
-    padding-top: 170px;
-    padding-left: 230px;
+    padding-top: 120px;
+    padding-left: 300px;
     width: auto;
 }
 #gorlin {
-    padding-top: 170px;
-    padding-left: 230px;
+    padding-top: 120px;
+    padding-left: 300px;
     width: auto;
 }
 #addr {
-    padding-top: 170px;
-    padding-left: 230px;
+    padding-top: 120px;
+    padding-left: 300px;
     width: auto;
 }
 #msc {
@@ -484,14 +485,14 @@ ul{
 
 #next button {
     margin-top: 120px;
-    margin-left: 30%;
+    margin-left: 35%;
     border-radius: 60px;
     background-color: #3B493E;
     color: white;
-    font-size: 42px;
+    font-size: 36px;
     font-family: 'Unbounded';
     border-color: #3B493E;
-    width: 800px;
+    width: 600px;
 }
 
 #red-sq {
