@@ -47,9 +47,29 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/shop')
-def shop():
-    return render_template('shop.html')
+@app.route('/nations')
+def nantions():
+    return render_template('narodi1.html')
+
+
+@app.route('/nations2')
+def nations2():
+    return render_template('nations2.html')
+
+
+@app.route('/monuments')
+def monuments():
+    return render_template('monuments.html')
+
+
+@app.route('/facts')
+def facts():
+    return render_template('facts.html')
+
+
+@app.route('/labyrinth')
+def labyrinth():
+    return render_template('labyrinth.html')
 
 
 @app.route('/register', methods=['GET', 'POST'])

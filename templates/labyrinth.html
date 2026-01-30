@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="banner-lab">
+    <div id="banner-text-1">Культурный лабиринт</div>
+    <div id="banner-text-2">Сайт по культуре Великой России</div>
+</div>
+<h2 id="h2cult">КУЛЬТУРНЫЙ ЛАБИРИНТ</h2>
+<h4 id="h2cult">Викторина</h4>
+<div id="quiz">
+        <h2 id="question">Вопрос</h2>
+        <div id="answers"></div>
+    </div>
+    <div id="result" style="display:none;"></div>
+    <script src="../static/js/script.js"></script>
+<div style="margin-top: 30px; height: 4px; background-color: #FFFFFF; width: 99.2vw;"></div>
+<footer id="next">
+    <a href="/"><button>Домой</button></a>
+</footer>
+{% endblock %}

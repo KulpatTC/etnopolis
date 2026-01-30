@@ -26,6 +26,13 @@ body {
     float: left;
     height: 50px;
     margin-right: 30px;
+    
+}
+
+#navbar-b {
+    color:#14A64C;
+    font-family: 'Unbounded';
+    font-size: 28px; 
 }
 
 ul{
@@ -46,6 +53,58 @@ ul{
     height: 900px;
     background-size: 50%;
     background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    align-content: center;
+}
+#banner-narodi1
+{
+    width: 99.2vw;
+    height: 900px;
+    background-size: 50%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgn1.jpg');
+    background-size: cover;
+    align-content: center;
+    
+}
+
+#banner-narodi2
+{
+    width: 99.2vw;
+    height: 900px;
+    background-size: 50%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgn2.jpg');
+    background-size: cover;
+    align-content: center;
+    
+}
+#banner-monuments
+{
+    width: 99.2vw;
+    height: 900px;
+    background-size: 50%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgm.jpg');
+    background-size: cover;
+    align-content: center;
+    
+}
+
+#banner-facts
+{
+    width: 99.2vw;
+    height: 900px;
+    background-size: 50%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgf.jpg');
+    background-size: cover;
+    align-content: center;
+    
+}
+
+#banner-lab
+{
+    width: 99.2vw;
+    height: 900px;
+    background-size: 50%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgl.jpg');
     background-size: cover;
     align-content: center;
     
@@ -121,13 +180,77 @@ ul{
     text-decoration: none;
 }
 
+#choosee {
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    width: 85vw;
+    display: flex;
+  justify-content: center;
+  margin-left: 140px;
+  
+}
+
+#choose-11 {
+    width: 410px;
+    height: 249px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch1.jpg');
+    background-size: cover;
+    border-radius: 50px;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+#choose-21 {
+    width: 410px;
+    height: 249px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch2.jpg');
+    background-size: cover;
+    border-radius: 32px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-content: center;
+    color:#FFFFFF;
+}
+
+#choose-31 {
+    width: 410px;
+    height: 249px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch3.jpg');
+    background-size: cover;
+    border-radius: 32px;
+    align-content: center;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+
+#choose-41 {
+    width: 410px;
+    height: 249px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch4.jpg');
+    background-size: cover;
+    border-radius: 32px;
+    align-content: center;
+    color: #FFFFFF;
+}
+
+#choosee p {
+    margin-left: 12px;
+}
+
+#choosee a {
+    text-decoration: none;
+}
+
 #map {
     color: #FFFFFF;
     font-family: 'Unbounded';
     font-weight: 500;
     background-color: #314535;   
     height: 1100px;
-    width: 100vw;
+    width: 99.2vw;
     position: relative; 
     display: inline-block;
 }
@@ -159,7 +282,7 @@ ul{
 }
 
 #mapp {
-    width: 75vw;
+    width: 1440px;
     height: auto;
     margin-left: 200px;
     z-index: 10;
@@ -169,7 +292,7 @@ ul{
     color:#FFFFFF;
     font-family: 'Unbounded';
     
-    width: 99.5vw;
+    width: 99.2vw;
     background-color: #242E26;
     height: 400px;
 }
@@ -205,68 +328,291 @@ ul{
     width: 87px;
     height: 18px;
     top: 518px;
-    right: 1420px
+    right: 1405px
 }
 #yakut {
     position: absolute;
     width: 83px;
     height: 20px;
     top: 530px;
-    right: 650px
+    right: 635px
 }
 #tuwi {
     position: absolute;
     width: 84px;
     height: 20px;
     top: 864px;
-    right: 947px
+    right: 932px
 }
 #hunti {
     position: absolute;
     width: 84px;
     height: 20px;
     top: 610px;
-    right: 1147px
+    right: 1132px
 }
 #bash {
     position: absolute;
     width: 88px;
     height: 18px;
     top: 680px;
-    right: 1297px
+    right: 1282px
 }
 #udm {
     position: absolute;
     width: 88px;
     height: 20px;
     top: 605px;
-    right: 1287px
+    right: 1272px
 }
 #komi {
     position: absolute;
     width: 86px;
     height: 18px;
     top: 460px;
-    right: 1316px
+    right: 1301px
 }
 #nen {
     position: absolute;
     width: 86px;
     height: 19px;
     top: 450px;
-    right: 1156px
+    right: 1141px
 }
 #nan {
     position: absolute;
     width: 90px;
     height: 19px;
     top: 665px;
-    right: 500px
+    right: 485px
 }
 #chuk {
     position: absolute;
     width: 86px;
     height: 19px;
     top: 330px;
-    right: 410px
+    right: 395px
+}
+#russkie {
+    color:#FFFFFF;
+    width: 99.2vw;
+    position: relative;
+    font-family: 'Unbounded';
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+#russkie h2 {
+    font-size: 64px;
+}
+
+#left
+{
+    width: 49.2vw;
+    float: left;
+    padding-left: 5vw;
+}
+
+#lef
+{
+    width: 49.2vw;
+    float: left;
+    padding-left: 2vw;
+}
+
+#right {
+    width: 50vw;
+    float: right;
+}
+
+#para {
+    position: absolute;
+    font-size: 36px;
+}
+
+#image {
+    margin-top: 3vh;
+    position: absolute;
+    border-radius: 30px;
+    width: 40vw;
+    height: 50vh;
+}
+
+#udmurti {
+    background-color: #2C382F;
+    height: 90vh;
+    color:#FFFFFF;
+    width: 99.2vw;
+    position: relative;
+    font-family: 'Unbounded';
+    margin-top: 1000px;
+}
+
+#bashrc {
+    height: 90vh;
+    color:#FFFFFF;
+    width: 99.2vw;
+    position: relative;
+    font-family: 'Unbounded';
+}
+
+#komi2 {
+    background-color: #2C382F;
+    height: 90vh;
+    color:#FFFFFF;
+    width: 99.2vw;
+    position: relative;
+    font-family: 'Unbounded';
+}
+
+#yakuti {
+    height: 90vh;
+    color:#FFFFFF;
+    width: 99.2vw;
+    position: relative;
+    font-family: 'Unbounded';
+}
+
+#next {
+    width: 99.2vw;
+    height: 300px;
+    background-color: #2C382F;
+}
+
+#next button {
+    margin-top: 120px;
+    margin-left: 30%;
+    border-radius: 60px;
+    background-color: #3B493E;
+    color: white;
+    font-size: 58px;
+    font-family: 'Unbounded';
+    border-color: #3B493E;
+    width: 800px;
+}
+
+#red-sq {
+    color:#FFFFFF;
+    padding-top: 70px;
+    font-family: 'Unbounded';
+    height: 750px;
+}
+
+#red-sq img {
+    width: 800px;
+    height: 600px;
+    border-radius: 40px;
+}
+
+#red-sq h2 {
+    font-size: 64px;
+}
+
+#rodina-matb {
+    color:#FFFFFF;
+    margin-top: 70px;
+    font-family: 'Unbounded';
+    height: 750px;
+    background-color: #2C382F;
+    padding-top: 70px;
+}
+
+#rodina-matb img {
+    width: 800px;
+    height: 600px;
+    border-radius: 40px;
+}
+
+#rodina-matb h2 {
+    font-size: 64px;
+}
+
+#f1 {
+    color:#FFFFFF;
+    padding-top: 70px;
+    font-family: 'Unbounded';
+    height: 850px;
+    text-align: center;
+    align-content: center;
+}
+
+#f1 h2 {
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+
+#f1 img {
+    width: 700px;
+    height: 580px;
+    margin-left: 140px;
+}
+
+#f1 p {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#f2 {
+    color:#FFFFFF;
+    padding-top: 70px;
+    font-family: 'Unbounded';
+    height: 850px;
+    text-align: center;
+    background-color: #2C382F;
+    align-content: center;
+}
+
+#f2 h2 {
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+
+#f2 img {
+    width: 700px;
+    height: 580px;
+}
+
+#f2 p {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#h2cult {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 4vw;
+    
+    color: #fff;
+	font-weight: 500;
+}
+
+#quiz {
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Unbounded';
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+#question {
+    margin-bottom: 30px;
+}
+
+#quiz button {
+    background-color: #2C382F;
+    border-radius: 40px;
+    padding: 10px;
+    border-color: #2C382F;
+    color: #fff;
+}
+
+#result {
+    color:#fff;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Unbounded';
+    font-size: 24px;
 }

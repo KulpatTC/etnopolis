@@ -1,39 +1,62 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+
 <div id="banner">
     <!-- <img src="../static/img/bg1.jpg" style="height: 1059px;" alt=""> -->
     <div id="banner-text-1">ЭТНОПОЛИС</div>
     <div id="banner-text-2">Сайт по культуре Великой России</div>
 </div>
+{% if current_user.is_authenticated %}
+<div id="choosee">
+    <a href="nations"><div id="choose-11">
+        <div><p>Народы</p>
+        </div>
+    </div></a>
+    <a href="monuments"><div id="choose-21">
+        <div><p>Культурные</p>
+             <p>сооружения</p></div>
+    </div></a>
+    <a href="facts"><div id="choose-31">
+        <div><p>Интересные</p> 
+             <p>факты</p></div>
+    </div>  </a>
+    <a href="labyrinth"><div id="choose-41">
+        <div><p>Культурный</p> 
+             <p>лабиринт</p></div>
+    </div>  </a>
+</div>
+{% else %}
 <div id="choose">
-    <a href="#"><div id="choose-1">
+    <a href="nations"><div id="choose-1">
         <div><p>Народы</p>
         </div>
 
     </div></a>
-    <a href="#"><div id="choose-2">
+    <a href="monuments"><div id="choose-2">
         <div><p>Культурные</p>
              <p>сооружения</p></div>
     </div></a>
-    <a href="#"><div id="choose-3">
+    <a href="facts"><div id="choose-3">
         <div><p>Интересные</p> 
              <p>факты</p></div>
     </div>  </a>
 </div>
+{% endif %}
 <div id="map">
     <h1>Карта России</h1>
     <img src="../static/img/map.png" id="mapp" alt="">
-    <a href="#"><img src="../static/img/russ.png" id="msc" alt=""></a>
-    <a href="#"><img src="../static/img/yakut.png" id="yakut" alt=""></a>
-    <a href="#"><img src="../static/img/tuwi.png" id="tuwi" alt=""></a>
-    <a href="#"><img src="../static/img/hunti.png" id="hunti" alt=""></a>
-    <a href="#"><img src="../static/img/bash.png" id="bash" alt=""></a>
-    <a href="#"><img src="../static/img/udm.png" id="udm" alt=""></a>
-    <a href="#"><img src="../static/img/komi.png" id="komi" alt=""></a>
-    <a href="#"><img src="../static/img/nen.png" id="nen" alt=""></a>
-    <a href="#"><img src="../static/img/chuk.png" id="chuk" alt=""></a>
-    <a href="#"><img src="../static/img/nan.png" id="nan" alt=""></a>
+    <a href="nations#russkie"><img src="../static/img/russ.png" id="msc" alt=""></a>
+    <a href="nations#yakuti"><img src="../static/img/yakut.png" id="yakut" alt=""></a>
+    <a href="nations2#russkie"><img src="../static/img/tuwi.png" id="tuwi" alt=""></a>
+    <a href="nations2#udmurti"><img src="../static/img/hunti.png" id="hunti" alt=""></a>
+    <a href="nations#bashrc"><img src="../static/img/bash.png" id="bash" alt=""></a>
+    <a href="nations#udmurti"><img src="../static/img/udm.png" id="udm" alt=""></a>
+    <a href="nations#komi2"><img src="../static/img/komi.png" id="komi" alt=""></a>
+    <a href="nations2#yakuti"><img src="../static/img/nen.png" id="nen" alt=""></a>
+    <a href="nations2#komi2"><img src="../static/img/chuk.png" id="chuk" alt=""></a>
+    <a href="nations2#bashrc"><img src="../static/img/nan.png" id="nan" alt=""></a>
     <div id="map-info1"><p>Россия  - государство в Восточной Европе и
          Северной Азии. Это крупнейшее государство в
           мире, его территория в международно признанных
