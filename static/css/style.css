@@ -408,26 +408,29 @@ ul{
 
 #left
 {
-    width: 49.2vw;
+    width: 48.2vw;
     float: left;
-    padding-left: 5vw;
+    padding-left: 1vw;
 }
 
 #lef
 {
-    width: 49.2vw;
+    width: 48.2vw;
     float: left;
-    padding-left: 2vw;
 }
 
 #right {
-    width: 50vw;
+    width: 51vw;
     float: right;
+    justify-content: left;
 }
 
 #para {
-    position: absolute;
-    font-size: 36px;
+    font-size: 24px;
+    padding-top: 15%;
+    text-align: center;
+    display: flex;
+  align-items: center;
 }
 
 #image {
@@ -485,7 +488,7 @@ ul{
     border-radius: 60px;
     background-color: #3B493E;
     color: white;
-    font-size: 58px;
+    font-size: 42px;
     font-family: 'Unbounded';
     border-color: #3B493E;
     width: 800px;
@@ -500,12 +503,14 @@ ul{
 
 #red-sq img {
     width: 800px;
-    height: 600px;
-    border-radius: 40px;
+    height: 580px;
+    border-radius: 60px;
+    padding-left: 25px;
 }
 
 #red-sq h2 {
-    font-size: 64px;
+    font-size: 48px;
+    text-align: center;
 }
 
 #rodina-matb {
@@ -519,12 +524,14 @@ ul{
 
 #rodina-matb img {
     width: 800px;
-    height: 600px;
-    border-radius: 40px;
+    height: 580px;
+    border-radius: 60px;
+    padding-left: 25px;
 }
 
 #rodina-matb h2 {
-    font-size: 64px;
+    font-size: 48px;
+    text-align: center;
 }
 
 #f1 {
@@ -539,17 +546,17 @@ ul{
 #f1 h2 {
     font-size: 48px;
     font-weight: 600;
-    
+    padding-bottom: 15px;
 }
 
 #f1 img {
     width: 700px;
     height: 580px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 #f1 p {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 400;
 }
 
@@ -566,7 +573,7 @@ ul{
 #f2 h2 {
     font-size: 48px;
     font-weight: 600;
-    
+    padding-bottom: 15px;
 }
 
 #f2 img {
@@ -575,7 +582,7 @@ ul{
 }
 
 #f2 p {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 400;
 }
 

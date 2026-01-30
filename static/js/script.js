@@ -81,4 +81,9 @@ function showResult() {
     resultEl.innerText = `Вы набрали ${score} из ${questions.length}`;
 }
 
+fetch('/api/endpoint', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ variable: score })
+});
 showQuestion(); // Запуск
