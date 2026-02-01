@@ -74,16 +74,28 @@ function checkAnswer(index) {
     }
 }
 
+function sendData() {
+    var value = score;
+    $.ajax({
+        url: '/labyrinth',
+        type: 'POST',
+        data: { 'data': value },
+        success: function(response) {
+            document.getElementById('output').innerHTML = response;
+        },
+        error: function(error) {
+            console.log(error);
+        }
+    });
+}
+
 function showResult() {
     document.getElementById("quiz").style.display = "none";
     const resultEl = document.getElementById("result");
     resultEl.style.display = "block";
     resultEl.innerText = `Вы набрали ${score} из ${questions.length}`;
+    sendData();
 }
 
-fetch('/api/endpoint', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ variable: score })
-});
 showQuestion(); // Запуск
+

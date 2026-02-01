@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Регистрация</h1>
-<div>
 
+<div id="bg-div">
+<div id="white">
+<div id="aut-div">
+<h1 id="h1aut">Регистрация</h1>
 
-<form action="" method="post">
+<form action="" method="post" id="aut">
     {{ form.hidden_tag() }}
     {{ form.csrf_token }}
     {% if message %}
@@ -56,7 +58,9 @@
     </p>
     {% endfor %}
     </p>
-    <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
+    <p>{{ form.submit(type="submit", class="btn btn-primary", id="autbutton") }}</p>
 </form>
+</div>
+</div>
 </div>
 {% endblock %}

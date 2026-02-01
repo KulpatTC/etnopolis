@@ -117,7 +117,6 @@ ul{
     font-family: 'Yeseva one';
     font-weight: 400;
     font-size: 94px;
-    text-decoration: underline;
     margin-left: 100px;
     color: #FFFFFF;
 }
@@ -625,4 +624,75 @@ ul{
     text-align: center;
     font-family: 'Unbounded';
     font-size: 24px;
+}
+
+#h1aut {
+    color: #3B493E;
+    font-family: 'Yeseva One';
+    font-size: 36px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 35px;
+}
+
+#aut-div {
+    color: #314535;
+    justify-content: center;
+    font-family: 'Unbounded';
+    
+    font-size: 24px;
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    height: 720px;
+    
+}
+
+#autbutton
+{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    background-color: #3B493E;
+    border-color: #14A64C;
+    font-size: 24px;
+    border-radius: 20px;
+    height: 70px;
+    margin-left: auto;
+}
+
+#white {
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    height: 820px;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+#whitel {
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    height: 510px;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 40px;
+    margin-top: 170px;
+}
+
+#bg-div {
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent), url('../img/bg1.jpg');
+    width: 99.2vw;
+    height: 99.2vh;
+    background-size: 100% 100%;
+}
+
+.form-control {
+    border-radius: 30px;
+    border-color: #14A64C;
 }

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template, redirect, request
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 
 from data import db_session
@@ -67,9 +67,17 @@ def facts():
     return render_template('facts.html')
 
 
-@app.route('/labyrinth')
+@app.route('/labyrinth', methods=['GET', 'POST'])
 def labyrinth():
-    return render_template('labyrinth.html')
+    if request.method == 'GET':
+        return render_template('labyrinth.html')
+    elif request.method == 'POST':
+        db_sess = db_session.create_session()
+        score = request.form.get('data')
+        user = db_sess.query(User).filter(User.id == current_user.id).first()
+        user.score = user.score + int(score)
+        db_sess.commit()
+        return 'ok'
 
 
 @app.route('/register', methods=['GET', 'POST'])
