@@ -5,11 +5,11 @@ body {
 
 #but-aut
 {
-    padding-top: 13.5px;
+    padding-top: 0.81wv;
     font-family: 'Unbounded';
     color: #14A64C;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.355vw;
     align-items: center;
     background-color: #3B493E;
     border-color: #3B493E;
@@ -34,7 +34,7 @@ body {
 #navbar-b {
     color:#14A64C;
     font-family: 'Unbounded';
-    font-size: 22px; 
+    font-size: 1.355vw; 
     font-weight: 500;
 }
 
@@ -53,7 +53,7 @@ ul{
 #banner
 {
     width: 99.2vw;
-    height: 900px;
+    height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bg1.jpg');
     background-size: cover;
@@ -62,7 +62,7 @@ ul{
 #banner-narodi1
 {
     width: 99.2vw;
-    height: 900px;
+    height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgn1.jpg');
     background-size: cover;
@@ -73,7 +73,7 @@ ul{
 #banner-narodi2
 {
     width: 99.2vw;
-    height: 900px;
+    height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgn2.jpg');
     background-size: cover;
@@ -83,7 +83,7 @@ ul{
 #banner-monuments
 {
     width: 99.2vw;
-    height: 900px;
+    height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgm.jpg');
     background-size: cover;
@@ -94,7 +94,7 @@ ul{
 #banner-facts
 {
     width: 99.2vw;
-    height: 900px;
+    height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgf.jpg');
     background-size: cover;
@@ -105,7 +105,7 @@ ul{
 #banner-lab
 {
     width: 99.2vw;
-    height: 900px;
+    height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgl.jpg');
     background-size: cover;
@@ -116,16 +116,16 @@ ul{
 #banner-text-1 {
     font-family: 'Yeseva one';
     font-weight: 400;
-    font-size: 94px;
-    margin-left: 100px;
+    font-size: 5.8vw;
+    margin-left: 5.78vw;
     color: #FFFFFF;
 }
 
 #banner-text-2 {
     font-family: 'Yeseva one';
     font-weight: 400;
-    font-size: 32px;
-    margin-left: 100px;
+    font-size: 1.953vw;
+    margin-left: 5.78vw;
     color: #FFFFFF;
 }
 
@@ -400,19 +400,19 @@ ul{
     width: 99.2vw;
     position: relative;
     font-family: 'Unbounded';
-    margin-top: 100px;
-    margin-bottom: 300px;
+    margin-top: 11vh;
+    height: 90vh;
 }
 
 #russkie h2 {
-    font-size: 64px;
+    font-size: 6.93vh;
 }
 
 #left
 {
     width: 48.2vw;
     float: left;
-    padding-left: 1vw;
+    padding-left: 3vw;
 }
 
 #lef
@@ -427,18 +427,28 @@ ul{
     justify-content: left;
 }
 
-#para {
-    font-size: 24px;
-    padding-top: 15%;
-    text-align: center;
+#para1 {
+    font-size: 2.6vh;
+    padding-top: 15vh;
+    text-align: left;
     display: flex;
   align-items: center;
+  height: auto;
 }
+
+#para {
+    font-size: 2.6vh;
+    text-align: left;
+    display: flex;
+  align-items: center;
+  height: auto;
+}
+
 
 #image {
     margin-top: 3vh;
     position: absolute;
-    border-radius: 30px;
+    border-radius: 3vh;
     width: 40vw;
     height: 50vh;
 }
@@ -450,7 +460,6 @@ ul{
     width: 99.2vw;
     position: relative;
     font-family: 'Unbounded';
-    margin-top: 1000px;
 }
 
 #bashrc {
@@ -480,20 +489,21 @@ ul{
 
 #next {
     width: 99.2vw;
-    height: 300px;
+    height: 29.8vh;
     background-color: #2C382F;
+    text-align: center;
 }
 
 #next button {
-    margin-top: 120px;
-    margin-left: 35%;
-    border-radius: 60px;
+    margin-top: 11.9vh;
+    align-content: center;
+    border-radius: 6vh;
     background-color: #3B493E;
     color: white;
-    font-size: 36px;
+    font-size: 2.220vw;
     font-family: 'Unbounded';
     border-color: #3B493E;
-    width: 600px;
+    width: 37.014vw;
 }
 
 #red-sq {
