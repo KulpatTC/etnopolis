@@ -132,44 +132,43 @@ ul{
 #choose {
     font-family: 'Unbounded';
     font-weight: 500;
-    font-size: 28px;
-    margin-top: 250px;
-    margin-bottom: 250px;
-    width: 85vw;
+    font-size: 3vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    width: 99.2vw;
     display: flex;
   justify-content: center;
-  margin-left: 130px;
   
 }
 
 #choose-1 {
-    width: 490px;
-    height: 300px;
+    width: 30.23vw;
+    height: 32.47vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url('../img/ch1.jpg');
     background-size: cover;
-    border-radius: 50px;
+    border-radius: 3.01vw;
     align-content: center;
     color: #FFFFFF;
 }
 
 #choose-2 {
-    width: 490px;
-    height: 300px;
+    width: 30.23vw;
+    height: 32.47vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url('../img/ch2.jpg');
     background-size: cover;
-    border-radius: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    border-radius: 3.01vw;
+    margin-left: 3.01vw;
+    margin-right: 3.01vw;
     align-content: center;
     color:#FFFFFF;
 }
 
 #choose-3 {
-    width: 490px;
-    height: 300px;
+    width: 30.23vw;
+    height: 32.47vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url('../img/ch3.jpg');
     background-size: cover;
-    border-radius: 50px;
+    border-radius: 3.01vw;
     align-content: center;
     color: #FFFFFF;
 }
@@ -185,61 +184,60 @@ ul{
 #choosee {
     font-family: 'Unbounded';
     font-weight: 500;
-    font-size: 28px;
-    margin-top: 250px;
-    margin-bottom: 250px;
-    width: 85vw;
+    font-size: 1.69vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    width: 99.2vw;
     display: flex;
   justify-content: center;
-  margin-left: 140px;
   
 }
 
 #choose-11 {
-    width: 410px;
-    height: 249px;
+    width: 24.29vw;
+    height: 26.9vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch1.jpg');
     background-size: cover;
-    border-radius: 50px;
+    border-radius: 4vh;
     align-content: center;
     color: #FFFFFF;
 }
 
 #choose-21 {
-    width: 410px;
-    height: 249px;
+    width: 22.29vw;
+    height: 26.9vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch2.jpg');
     background-size: cover;
-    border-radius: 32px;
-    margin-left: 40px;
-    margin-right: 40px;
+    border-radius: 4vh;
+    margin-left: 2.47vw;
+    margin-right: 2.47vw;
     align-content: center;
     color:#FFFFFF;
 }
 
 #choose-31 {
-    width: 410px;
-    height: 249px;
+    width: 22.29vw;
+    height: 26.9vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch3.jpg');
     background-size: cover;
-    border-radius: 32px;
+    border-radius: 4vh;
     align-content: center;
     color: #FFFFFF;
     margin-right: 40px;
 }
 
 #choose-41 {
-    width: 410px;
-    height: 249px;
+    width: 22.29vw;
+    height: 26.9vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch4.jpg');
     background-size: cover;
-    border-radius: 32px;
+    border-radius: 4vh;
     align-content: center;
     color: #FFFFFF;
 }
 
 #choosee p {
-    margin-left: 12px;
+    margin-left: 0.72vw;
 }
 
 #choosee a {
@@ -251,7 +249,7 @@ ul{
     font-family: 'Unbounded';
     font-weight: 400;
     background-color: #314535;   
-    height: 1100px;
+    height: 66.23vw;
     width: 99.2vw;
     position: relative; 
     display: inline-block;
@@ -265,7 +263,7 @@ ul{
 
 #map-info1 p
 {
-    margin-left: 100px;
+    margin-left: 6.02vw;
 }
 
 #map-info2
@@ -274,19 +272,18 @@ ul{
     width: 40vw;
 }
 #map h1 {
-    font-size: 36px;
-    margin-left: 100px;
-    padding-top: 100px;
+    font-size: 3.6vh;
+    margin-left: 6.02vw;
+    padding-top: 10.82vh;
 }
 #map p {
-    font-size: 20px;
-
+    font-size: 2vh;
 }
 
 #mapp {
-    width: 1440px;
+    width: 86.69vw;
     height: auto;
-    margin-left: 200px;
+    margin-left: 7.22vw;
     z-index: 10;
 }
 
@@ -296,7 +293,7 @@ ul{
     
     width: 99.2vw;
     background-color: #242E26;
-    height: 300px;
+    height: 32.47vh;
 }
 #futer
 {
@@ -304,96 +301,96 @@ ul{
 
 }
 #futer h2 {
-    font-size: 24px;
+    font-size: 2.6vh;
 }
 
 #futer p {
-    font-size: 18px;
+    font-size: 1.95vh;
 }
 #dop {
-    padding-top: 120px;
-    padding-left: 300px;
+    padding-top: 12.99vh;
+    padding-left: 15.5vw;
     width: auto;
 }
 #gorlin {
-    padding-top: 120px;
-    padding-left: 300px;
+    padding-top: 12.99vh;
+    padding-left: 15.5vw;
     width: auto;
 }
 #addr {
-    padding-top: 120px;
-    padding-left: 300px;
+    padding-top: 12.99vh;
+    padding-left: 15.5vw;
     width: auto;
 }
 #msc {
     position: absolute;
-    width: 87px;
-    height: 18px;
-    top: 518px;
-    right: 1405px
+    width: 6.62vw;
+    height: 2.38vh;
+    top: 61.47vh;
+    right: 72.89vw
 }
 #yakut {
     position: absolute;
-    width: 83px;
-    height: 20px;
-    top: 530px;
-    right: 635px
+    width: 5.5vw;
+    height: 2.49vh;
+    top: 62.77vh;
+    right: 30vw
 }
 #tuwi {
     position: absolute;
-    width: 84px;
-    height: 20px;
-    top: 864px;
-    right: 932px
+    width: 7vw;
+    height: 2.6vh;
+    top: 104.98vh;
+    right: 44vw
 }
 #hunti {
     position: absolute;
-    width: 84px;
-    height: 20px;
-    top: 610px;
-    right: 1132px
+    width: 5.5vw;
+    height: 2.49vh;
+    top: 71.43vh;
+    right: 57.7vw
 }
 #bash {
     position: absolute;
-    width: 88px;
-    height: 18px;
-    top: 680px;
-    right: 1282px
+    width: 7.1vw;
+    height: 2.38vh;
+    top: 82.25vh;
+    right: 65vw
 }
 #udm {
     position: absolute;
-    width: 88px;
-    height: 20px;
-    top: 605px;
-    right: 1272px
+    width: 7.1vw;
+    height: 2.38vh;
+    top: 72.51vh;
+    right: 64.95vw
 }
 #komi {
     position: absolute;
-    width: 86px;
-    height: 18px;
-    top: 460px;
-    right: 1301px
+    width: 5.48vw;
+    height: 2vh;
+    top: 54.11vh;
+    right: 67.93vw
 }
 #nen {
     position: absolute;
-    width: 86px;
-    height: 19px;
-    top: 450px;
-    right: 1141px
+    width: 5.7vw;
+    height: 2.38vh;
+    top: 51.95vh;
+    right: 59vw
 }
 #nan {
     position: absolute;
-    width: 90px;
-    height: 19px;
-    top: 665px;
-    right: 485px
+    width: 6.46vw;
+    height: 2.38vh;
+    top: 78.46vh;
+    right: 17vw
 }
 #chuk {
     position: absolute;
-    width: 86px;
-    height: 19px;
-    top: 330px;
-    right: 395px
+    width: 5.4vw;
+    height: 2.38vh;
+    top: 35.71vh;
+    right: 12vw
 }
 #russkie {
     color:#FFFFFF;
@@ -412,7 +409,7 @@ ul{
 {
     width: 48.2vw;
     float: left;
-    padding-left: 3vw;
+    padding-left: 4vw;
 }
 
 #lef
@@ -434,7 +431,19 @@ ul{
     display: flex;
   align-items: center;
   height: auto;
+  max-width: 49vw;
 }
+
+#para2 {
+    font-size: 2.6vh;
+    padding-top: 22vh;
+    text-align: left;
+    display: flex;
+  align-items: center;
+  height: auto;
+  max-width: 49vw;
+}
+
 
 #para {
     font-size: 2.6vh;
@@ -442,6 +451,7 @@ ul{
     display: flex;
   align-items: center;
   height: auto;
+  max-width: 49vw;
 }
 
 
@@ -508,93 +518,93 @@ ul{
 
 #red-sq {
     color:#FFFFFF;
-    padding-top: 70px;
+    padding-top: 7.58vh;
     font-family: 'Unbounded';
-    height: 750px;
+    height: 81.17vh;
 }
 
 #red-sq img {
-    width: 800px;
-    height: 580px;
-    border-radius: 60px;
-    padding-left: 25px;
+    width: 46vw;
+    height: 62vh;
+    border-radius: 6.49vh;
+    padding-left: 1.51vw;
 }
 
 #red-sq h2 {
-    font-size: 48px;
+    font-size: 5.19vh;
     text-align: center;
 }
 
 #rodina-matb {
     color:#FFFFFF;
-    margin-top: 70px;
+    margin-top: 7.58vh;
     font-family: 'Unbounded';
-    height: 750px;
+    height: 81.17vh;
     background-color: #2C382F;
-    padding-top: 70px;
+    padding-top: 7.58vh;
 }
 
 #rodina-matb img {
-    width: 800px;
-    height: 580px;
-    border-radius: 60px;
-    padding-left: 25px;
+    width: 46vw;
+    height: 62vh;
+    border-radius: 6.49vh;
+    padding-left: 1.51vw;
 }
 
 #rodina-matb h2 {
-    font-size: 48px;
+    font-size: 5.19vh;
     text-align: center;
 }
 
 #f1 {
     color:#FFFFFF;
-    padding-top: 70px;
+    padding-top: 7.58vh;
     font-family: 'Unbounded';
-    height: 850px;
+    height: 91.99vh;
     text-align: center;
     align-content: center;
 }
 
 #f1 h2 {
-    font-size: 48px;
+    font-size: 5.19vh;
     font-weight: 600;
-    padding-bottom: 15px;
+    padding-bottom: 1.62vh;
 }
 
 #f1 img {
-    width: 700px;
-    height: 580px;
-    margin-left: 100px;
+    width: 39vw;
+    height: 62.77vh;
+    margin-left: 2.02vw;
 }
 
 #f1 p {
-    font-size: 24px;
+    font-size: 2.6vh;
     font-weight: 400;
 }
 
 #f2 {
     color:#FFFFFF;
-    padding-top: 70px;
+    padding-top: 7.58vh;
     font-family: 'Unbounded';
-    height: 850px;
+    height: 91.99vh;
     text-align: center;
     background-color: #2C382F;
     align-content: center;
 }
 
 #f2 h2 {
-    font-size: 48px;
+    font-size: 5.19vh;
     font-weight: 600;
-    padding-bottom: 15px;
+    padding-bottom: 1.62vh;
 }
 
 #f2 img {
-    width: 700px;
-    height: 580px;
+    width: 39vw;
+    height: 62.77vh;
 }
 
 #f2 p {
-    font-size: 24px;
+    font-size: 2.6vh;
     font-weight: 400;
 }
 

@@ -75,7 +75,7 @@ def labyrinth():
         db_sess = db_session.create_session()
         score = request.form.get('data')
         user = db_sess.query(User).filter(User.id == current_user.id).first()
-        user.score = user.score + int(score)
+        user.score = max(user.score, int(score))
         db_sess.commit()
         return 'ok'
 
