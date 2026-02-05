@@ -133,12 +133,42 @@ ul{
     font-family: 'Unbounded';
     font-weight: 500;
     font-size: 3vh;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
     width: 99.2vw;
     display: flex;
   justify-content: center;
   
+}
+
+#choose2 {
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-size: 3vh;
+    margin-bottom: 15vh;
+    width: 99.2vw;
+    display: flex;
+  justify-content: center;
+  
+}
+
+#choose2 p {
+    margin-left: 0.72vw;
+}
+
+#choose2 a {
+    text-decoration: none;
+}
+
+#choose21 {
+    width: 30.23vw;
+    height: 32.47vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent), url('../img/ch21.jpg');
+    background-size: cover;
+    border-radius: 3.01vw;
+    align-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 #choose-1 {
@@ -174,7 +204,7 @@ ul{
 }
 
 #choose p {
-    margin-left: 15px;
+    margin-left: 0.72vw;
 }
 
 #choose a {
@@ -185,12 +215,40 @@ ul{
     font-family: 'Unbounded';
     font-weight: 500;
     font-size: 1.69vw;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
     width: 99.2vw;
     display: flex;
   justify-content: center;
   
+}
+
+#choosee2 {
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-size: 1.69vw;
+    margin-bottom: 15vh;
+    width: 99.2vw;
+    display: flex;
+  justify-content: center;
+}
+
+#choosee2 p {
+    margin-left: 0.72vw;
+}
+
+#choosee2 a {
+    text-decoration: none;
+}
+
+#choosee21 {
+    width: 24.29vw;
+    height: 26.9vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch21.jpg');
+    background-size: cover;
+    border-radius: 4vh;
+    align-content: center;
+    color: #FFFFFF;
 }
 
 #choose-11 {
@@ -609,7 +667,7 @@ ul{
 }
 
 #h2cult {
-    font-size: 48px;
+    font-size: 5.19vh;
     text-align: center;
     padding-top: 4vw;
     
@@ -622,18 +680,19 @@ ul{
     justify-content: center;
     text-align: center;
     font-family: 'Unbounded';
-    font-size: 24px;
-    padding-bottom: 30px;
+    font-size: 2.6vh;
+    padding-bottom: 3.25vh;
 }
 
 #question {
-    margin-bottom: 30px;
+    margin-bottom: 3.25vh;
+    font-size: 3.25vh;
 }
 
 #quiz button {
     background-color: #2C382F;
-    border-radius: 40px;
-    padding: 10px;
+    border-radius: 4.33vh;
+    padding: 1.08vh;
     border-color: #2C382F;
     color: #fff;
 }
@@ -643,7 +702,7 @@ ul{
     justify-content: center;
     text-align: center;
     font-family: 'Unbounded';
-    font-size: 24px;
+    font-size: 2.6vh;
 }
 
 #h1aut {

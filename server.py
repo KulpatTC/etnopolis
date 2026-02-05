@@ -105,5 +105,17 @@ def reqister():
     return render_template('register.html', form=form)
 
 
+@app.route('/leaderboard')
+def leaderboard():
+    db_sess = db_session.create_session()
+    users = db_sess.query(User).all()
+    a = []
+    for el in users:
+        a.append((el.score, el.surname + ' ' + el.name))
+    a.sort(key=lambda x: (-x[0], x[1]))
+    print(a)
+    return render_template('leaderboard.html', a=a[:10])
+
+
 if __name__ == '__main__':
     app.run(port=80, host='127.0.0.1')
