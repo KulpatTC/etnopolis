@@ -114,7 +114,13 @@ def leaderboard():
         a.append((el.score, el.surname + ' ' + el.name))
     a.sort(key=lambda x: (-x[0], x[1]))
     print(a)
-    return render_template('leaderboard.html', a=a[:10])
+    print(a[0][1])
+    return render_template('leaderboard.html',b=a[0][1], a=a[1:10])
+
+
+@app.route('/events')
+def events():
+    return render_template('events.html')
 
 
 if __name__ == '__main__':

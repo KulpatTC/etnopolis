@@ -3,19 +3,20 @@
 {% block content %}
 
 {% if current_user.is_authenticated %}
-<div class="table_container">
-    <table class="my_table">
-        <tr class="my_row">
+<div id="table_container">
+    <img src="../static/img/cup.png" alt="">
+    <h1>{{ b }}</h1>
+    <table id="my_table">
+        <tr id="my_row" >
             <td class="title">№</td>
             <td class="title">Фамилия и имя</td>
             <td class="title">Очки</td>
         </tr>
-
         {% for el in a %}
-        <tr class="my_row">
-            <td class="ordinary">{{ loop.index }}</td>
-            <td class="ordinary">{{ el[1] }}</td>
-            <td class="ordinary">{{ el[0] }}</td>
+        <tr id="my_row" >
+            <td >{{ loop.index + 1 }}</td>
+            <td >{{ el[1] }}</td>
+            <td >{{ el[0] }}</td>
         </tr>
         {% endfor %}
     </table>
