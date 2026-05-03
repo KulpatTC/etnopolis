@@ -1,8 +1,11 @@
 from flask import Flask, render_template, redirect, request
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 
+from sqlalchemy import func
+
 from data import db_session
 from data.users import User
+from data.tasks import Task
 
 from forms.login import LoginForm
 from forms.register import RegisterForm
@@ -12,6 +15,7 @@ app.config['SECRET_KEY'] = 'key'
 db_session.global_init("./db/mydatabase.db")
 login_manager = LoginManager()
 login_manager.init_app(app)
+
 
 
 @login_manager.user_loader
@@ -70,7 +74,10 @@ def facts():
 @app.route('/labyrinth', methods=['GET', 'POST'])
 def labyrinth():
     if request.method == 'GET':
-        return render_template('labyrinth.html')
+        db_sess = db_session.create_session()
+        voprosi = db_sess.query(Task).order_by(func.random()).limit(5).all()
+        db_sess.close()
+        return render_template('labyrinth.html', voprosi=voprosi)
     elif request.method == 'POST':
         db_sess = db_session.create_session()
         score = request.form.get('data')
