@@ -15,7 +15,7 @@
     <div id="answers"></div>
 </div>
 <div id="result" style="display:none;"></div>
-<script>
+<script id="questions">
     const questions = {{ voprosi | tojson | safe }};
 
     let currentQuestion = 0;
@@ -75,7 +75,7 @@
 
     showQuestion(); // zapusk
 </script>
-<div style="height: 0.4vh; background-color: #FFFFFF; width: 99.2vw; margin-top: 0.8vh;"></div>
+<div style="height: 0.4vh; background-color: #FFFFFF; width: 99.2vw; margin-top: 3.8vh;"></div>
 <footer id="next">
     <a href="/">
         <button>На главную</button>
