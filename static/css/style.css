@@ -52,7 +52,7 @@ ul{
 
 #banner
 {
-    width: 99.2vw;
+    width: 100vw;
     height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bg1.jpg');
@@ -61,7 +61,7 @@ ul{
 }
 #banner-narodi1
 {
-    width: 99.2vw;
+    width: 100vw;
     height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgn1.jpg');
@@ -72,7 +72,7 @@ ul{
 
 #banner-narodi2
 {
-    width: 99.2vw;
+    width: 100vw;
     height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgn2.jpg');
@@ -82,7 +82,7 @@ ul{
 }
 #banner-monuments
 {
-    width: 99.2vw;
+    width: 100vw;
     height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgm.jpg');
@@ -93,7 +93,7 @@ ul{
 
 #banner-facts
 {
-    width: 99.2vw;
+    width: 100vw;
     height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgf.jpg');
@@ -104,7 +104,7 @@ ul{
 
 #banner-events
 {
-    width: 99.2vw;
+    width: 100vw;
     height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/ch21.jpg');
@@ -115,7 +115,7 @@ ul{
 
 #banner-lab
 {
-    width: 99.2vw;
+    width: 100vw;
     height: 87vh;
     background-size: 50%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), url('../img/bgl.jpg');
@@ -146,7 +146,7 @@ ul{
     font-size: 3vh;
     margin-top: 15vh;
     margin-bottom: 5vh;
-    width: 99.2vw;
+    width: 100vw;
     display: flex;
   justify-content: center;
   
@@ -157,7 +157,7 @@ ul{
     font-weight: 500;
     font-size: 3vh;
     margin-bottom: 15vh;
-    width: 99.2vw;
+    width: 100vw;
     display: flex;
   justify-content: center;
   
@@ -228,7 +228,7 @@ ul{
     font-size: 1.69vw;
     margin-top: 15vh;
     margin-bottom: 5vh;
-    width: 99.2vw;
+    width: 100vw;
     display: flex;
   justify-content: center;
   
@@ -239,7 +239,7 @@ ul{
     font-weight: 500;
     font-size: 1.69vw;
     margin-bottom: 15vh;
-    width: 99.2vw;
+    width: 100vw;
     display: flex;
   justify-content: center;
 }
@@ -319,7 +319,7 @@ ul{
     font-weight: 400;
     background-color: #314535;   
     height: 66.23vw;
-    width: 99.2vw;
+    width: 100vw;
     position: relative; 
     display: inline-block;
 }
@@ -360,7 +360,7 @@ ul{
     color:#FFFFFF;
     font-family: 'Unbounded';
     
-    width: 99.2vw;
+    width: 100vw;
     background-color: #242E26;
     height: 32.47vh;
 }
@@ -463,7 +463,7 @@ ul{
 }
 #russkie {
     color:#FFFFFF;
-    width: 99.2vw;
+    width: 100vw;
     position: relative;
     font-family: 'Unbounded';
     margin-top: 11vh;
@@ -536,7 +536,7 @@ ul{
     background-color: #2C382F;
     height: 90vh;
     color:#FFFFFF;
-    width: 99.2vw;
+    width: 100vw;
     position: relative;
     font-family: 'Unbounded';
 }
@@ -544,7 +544,7 @@ ul{
 #bashrc {
     height: 90vh;
     color:#FFFFFF;
-    width: 99.2vw;
+    width: 100vw;
     position: relative;
     font-family: 'Unbounded';
 }
@@ -553,7 +553,7 @@ ul{
     background-color: #2C382F;
     height: 90vh;
     color:#FFFFFF;
-    width: 99.2vw;
+    width: 100vw;
     position: relative;
     font-family: 'Unbounded';
 }
@@ -561,13 +561,13 @@ ul{
 #yakuti {
     height: 90vh;
     color:#FFFFFF;
-    width: 99.2vw;
+    width: 100vw;
     position: relative;
     font-family: 'Unbounded';
 }
 
 #next {
-    width: 99.2vw;
+    width: 100vw;
     height: 29.8vh;
     background-color: #2C382F;
     text-align: center;
@@ -764,6 +764,16 @@ ul{
     margin-top: 50px;
 }
 
+#whitet {
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    height: 1100px;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
 #whitel {
     justify-content: center;
     margin: auto;
@@ -778,8 +788,8 @@ ul{
     position: absolute;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent), url('../img/bg1.jpg');
     background-size: cover;
-    width: 99.2vw;
-    height: 99.2vh;
+    width: 100vw;
+    height: 100vh;
     background-size: 100% 100%;
 }
 
@@ -789,7 +799,7 @@ ul{
 }
 
 #table_container {
-    width: 99.2vw;
+    width: 100vw;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -811,7 +821,7 @@ ul{
 }
 
 #my_row {
-    width: 99.2vw;
+    width: 100vw;
     border:#fff;
     border-color: #fff;
     border-width: 2px;
@@ -825,17 +835,17 @@ ul{
 
 #ah2 {
     color: #fff;
-    font-size: 6.2vh;
+    font-size: 4.3vh;
     padding-left: 2vw;
     margin-top: 4.33vh;
     font-family: 'Unbounded';
 }
 
 #ev1 {
-    width: 99.2vw;
+    width: 100vw;
     color: #fff;
     font-family: 'Unbounded';
-    height: 74vh;
+    height: 54vh;
     padding: auto;
     margin-top: 7.6vh;
 }
@@ -851,8 +861,8 @@ ul{
 }
 
 #ev1 img {
-    margin-top: 13vh;
-    width: 22vw;
+    margin-top: 3vh;
+    width: 30vw;
     border-radius: 5.41vh;
 }
 
@@ -861,7 +871,6 @@ ul{
     border-radius: 6vh;
     background-color: #2C382F;
     color: white;
-    font-size: 2.220vw;
     font-family: 'Unbounded';
     border-color: #2C382F;
     width: 20.014vw;
@@ -875,7 +884,7 @@ ul{
 {
     width: 34.2vw;
     float: left;
-    padding-left: 4vw;
+    padding-left: 3vw;
 }
 
 #rightev {
@@ -884,8 +893,20 @@ ul{
     justify-content: left;
 }
 
+#rightev button {
+    font-size: 2.8vh;
+}
+
+#rightev h3 {
+    font-size: 3.3vh;
+}
+
+#rightev p {
+    font-size: 2.8vh;
+}
+
 #ev2 {
-    width: 99.2vw;
+    width: 100vw;
     color: #fff;
     font-family: 'Unbounded';
     height: 93vh;
@@ -925,7 +946,7 @@ ul{
 }
 
 #ev3 {
-    width: 99.2vw;
+    width: 100vw;
     color: #fff;
     font-family: 'Unbounded';
     height: 63vh;
@@ -965,7 +986,7 @@ ul{
 }
 
 #ev4 {
-    width: 99.2vw;
+    width: 100vw;
     color: #fff;
     font-family: 'Unbounded';
     height: 86vh;
@@ -1009,7 +1030,7 @@ ul{
     font-family: 'Unbounded';
     font-size: 4.33vh;
     text-align: center;
-    width: 99.2vw;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent), url('../img/gorim.jpg');
     

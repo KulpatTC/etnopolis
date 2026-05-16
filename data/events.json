@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Международный фестиваль этнической музыки и ремёсел «МИР Сибири»",
+    "date": "09.07.2026",
+    "date_end": "12.07.2026",
+    "place": "п. Шушенское, Красноярский край",
+    "description": "Главный этнофестиваль Сибири под патронатом ЮНЕСКО. Этническая музыка народов мира, конкурс ремесленников, ярмарка мастеров, мастер-классы. В 2025 году собрал более 80 000 гостей. Вход бесплатный.",
+    "url": "https://festmir.ru",
+    "source": "festmir.ru",
+    "city": "Шушенское",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Russian_Folk_Singers.jpg/1280px-Russian_Folk_Singers.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail"
+  },
+  {
+    "title": "Международный музыкальный фестиваль «Голос кочевников»",
+    "date": "10.07.2026",
+    "date_end": "11.07.2026",
+    "place": "Этнокомплекс «АСАГАД. Степной кочевник», с. Ацагат, Республика Бурятия",
+    "description": "Крупнейший музыкальный опен-эйр Дальнего Востока России. Этническая музыка, три сцены, маркет авторских изделий, палаточный лагерь. В 2025 году — 25 000 зрителей.",
+    "url": "https://voiceofnomads.ru",
+    "source": "voiceofnomads.ru",
+    "city": "Улан-Удэ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Russian_folklore_Russian_dances_and_kokoshnik_%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%B0%D0%BD%D1%86%D1%8B_%D0%B8_%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D0%BC%D1%8B_%D0%BA%D0%BE%D0%BA%D0%BE%D1%88%D0%BD%D0%B8%D0%BA_4.jpg/1280px-Russian_folklore_Russian_dances_and_kokoshnik_%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%B0%D0%BD%D1%86%D1%8B_%D0%B8_%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D0%BE%D1%81%D1%82%D1%8E%D0%BC%D1%8B_%D0%BA%D0%BE%D0%BA%D0%BE%D1%88%D0%BD%D0%B8%D0%BA_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail"
+  },
+  {
+    "title": "Фестиваль живой истории «Былинный берег»",
+    "date": "24.07.2026",
+    "date_end": "26.07.2026",
+    "place": "Берег Волхова у д. Захарьино, Новгородская область",
+    "description": "Фестиваль посвящён культуре и традициям народов России IX–XI вв. Реконструкция сражений, ярмарка народных ремёсел, мастер-классы по кузнечному, гончарному и ткацкому делу, фолк-музыка.",
+    "url": "https://10vek.ru",
+    "source": "10vek.ru",
+    "city": "Великий Новгород",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Girls_and_women_in_Russian_folk_costumes_dresses_clothes_of_the_Belgorod_region.jpg/1280px-Girls_and_women_in_Russian_folk_costumes_dresses_clothes_of_the_Belgorod_region.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail"
+  },
+  {
+    "title": "Фестиваль «Дикая Мята»",
+    "date": "19.06.2026",
+    "date_end": "21.06.2026",
+    "place": "Арт-кэмп «Дикая Мята», д. Бунырево, Тульская область",
+    "description": "Один из крупнейших независимых музыкальных опен-эйров России с программой народной и этнической музыки. Мастер-классы, ярмарка, детская зона, кухни народов мира.",
+    "url": "https://mintmusic.ru",
+    "source": "mintmusic.ru",
+    "city": "Тула",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Russian_folk_folkloric_ensemble_RASPEV_%28chant%29_will_be_performing_in_2021_in_the_Museum-Reservation_of_the_Manor_%22Muranovo%22%2C_named_after_Fyodor_Ivanovich_Tyutchev.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail"
+  },
+  {
+    "title": "Всероссийский детский фестиваль народной культуры «Наследники традиций»",
+    "date": "01.07.2026",
+    "date_end": "31.08.2026",
+    "place": "Вологодская область",
+    "description": "Всероссийский фестиваль Министерства просвещения РФ, посвящённый этнокультурному наследию регионов. Фольклор, народные ремёсла, танцы и обряды народов России.",
+    "url": "https://naslednikitraditsy.ru",
+    "source": "naslednikitraditsy.ru",
+    "city": "Вологда",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Mistress.jpg/1280px-Mistress.jpg?utm_source=commons.wikimedia.org&utm_campaign=gallery&utm_content=thumbnail"
+  },
+  {
+    "title": "Международный фестиваль «Дружба народов — Единство России»",
+    "date": "01.03.2026",
+    "date_end": "20.07.2026",
+    "place": "Россия (приём заявок)",
+    "description": "V Международный благотворительный фестиваль культурно-исторического наследия народов России. Цель — сохранение и развитие уникальных художественных традиций народов страны, укрепление межнационального единства.",
+    "url": "https://aisfestival.com",
+    "source": "aisfestival.com",
+    "city": "Москва",
+    "image": "https://optim.tildacdn.com/tild3039-3965-4266-a661-313264316264/-/cover/460x340/center/center/-/format/webp/3T8A1633.jpg.webp"
+  },
+  {
+    "title": "Этнофестиваль «Вселенная»",
+    "date": "01.07.2026",
+    "date_end": "31.07.2026",
+    "place": "«Экополис Фестивальный», 42 км от Тюмени",
+    "description": "Крупнейший этнофестиваль Тюменской области. Традиционная этническая музыка, современные ритмы, ярмарка товаров ручной работы, народная кухня, детская программа.",
+    "url": "https://etnofestival.ru",
+    "source": "etnofestival.ru",
+    "city": "Тюмень",
+    "image": "https://optim.tildacdn.com/tild6637-3366-4139-b533-323734663232/-/format/webp/Yz7Xd9OQmUnEFRpgCUXq.jpg.webp"
+  },
+  {
+    "title": "Фестиваль «Крымская полынь»",
+    "date": "11.09.2026",
+    "date_end": "13.09.2026",
+    "place": "Крым, Россия",
+    "description": "Этнофестиваль, посвящённый культуре и традициям народов Крыма и юга России. Народная музыка, ремёсла, фольклорные коллективы.",
+    "url": "https://allfest.ru/t/ethno-festivals",
+    "source": "allfest.ru",
+    "city": "Крым",
+    "image": "https://cdn.kassir.ru/krym/poster_1280_392/6b/6bcd2ed31f48d9237e7e222827108068.jpg"
+  },
+  {
+    "title": "Фестиваль исторической реконструкции «Зарайская слобода»",
+    "date": "17.07.2026",
+    "date_end": "19.07.2026",
+    "place": "Зарайск, Московская область",
+    "description": "Фестиваль живой истории и традиционных ремёсел народов России. Реконструкция быта и культуры, народные игры, мастер-классы по традиционным промыслам.",
+    "url": "https://allfest.ru/t/ethno-festivals",
+    "source": "allfest.ru",
+    "city": "Зарайск",
+    "image": "https://optim.tildacdn.com/tild6362-3761-4530-a533-393634373436/-/resize/750x/-/format/webp/1H4XdTdEXMhj6dGoZkWg.jpg.webp"
+  },
+  {
+    "title": "Фестиваль «На распутье»",
+    "date": "03.07.2026",
+    "date_end": "05.07.2026",
+    "place": "Россия",
+    "description": "Фестиваль традиционной культуры и народной музыки народов России. Фольклорные коллективы, мастер-классы по народным промыслам.",
+    "url": "https://allfest.ru/t/ethno-festivals",
+    "source": "allfest.ru",
+    "city": "Россия",
+    "image": "https://sun9-66.userapi.com/s/v1/ig2/SZvXyUJfI_3t8OQY8PYGenhi4A22ugYzfja0__m35NRoJHg7JhMN5W5mMSWnEYIttH-K-GE5ZFWFSRswJu-sp--G.jpg?quality=95&crop=0,0,1280,720&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1280x720&from=bu&u=7Qp078H1HBFjApnKlXDNrbg7z6L2bV9PNQuUnvCCdlI&cs=1280x0"
+  },
+  {
+    "title": "Выставка «Эвенки. Краски таёжного мира»",
+    "date": "16.03.2026",
+    "date_end": "01.06.2026",
+    "place": "Улан-Удэ, Республика Бурятия",
+    "description": "Выставка, посвящённая культуре, быту и искусству эвенков — одного из коренных народов Сибири. Традиционная одежда, украшения, предметы быта и охоты.",
+    "url": "https://www.baikal-media.ru",
+    "source": "baikal-media.ru",
+    "city": "Улан-Удэ",
+    "image": "https://arun-rb.ru/wp-content/uploads/2020/03/IMG_7601_thumb.jpg"
+  },
+  {
+    "title": "Фестиваль этнографических автопутешествий «Кочующий Красный Слон»",
+    "date": "01.06.2026",
+    "date_end": "01.08.2026",
+    "place": "Россия (маршрут по регионам)",
+    "description": "Фестиваль этнографических автопутешествий по регионам России — знакомство с культурой, бытом и традициями народов страны через живое путешествие.",
+    "url": "https://allfest.ru",
+    "source": "allfest.ru",
+    "city": "Россия",
+    "image": "https://optim.tildacdn.com/tild6532-3066-4665-a539-643934303137/-/format/webp/3.webp"
+  }
+]

@@ -2,6 +2,7 @@ import sqlalchemy
 from .db_session import SqlAlchemyBase
 from sqlalchemy_serializer import *
 
+from . import tags
 
 class Task(SqlAlchemyBase, SerializerMixin):
     __tablename__ = 'tasks'

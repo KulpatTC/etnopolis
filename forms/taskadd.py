@@ -3,6 +3,7 @@ from wtforms import StringField, SubmitField, IntegerField
 from wtforms.validators import DataRequired
 
 
+
 class CreateTaskForm(FlaskForm):
     question = StringField("Вопрос", validators=[DataRequired()])
     answer1 = StringField("Вариант ответа 1", validators=[DataRequired()])

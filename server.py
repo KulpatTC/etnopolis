@@ -3,7 +3,8 @@ from flask_login import LoginManager, login_user, logout_user, login_required, c
 
 from sqlalchemy import func
 
-from data import db_session, tasks_api
+import json
+from data import db_session
 from data.users import User
 from data.tasks import Task
 
@@ -16,7 +17,6 @@ app.config['SECRET_KEY'] = 'key'
 db_session.global_init("./db/mydatabase.db")
 login_manager = LoginManager()
 login_manager.init_app(app)
-app.register_blueprint(tasks_api.blueprint)
 
 
 @login_manager.user_loader
@@ -162,7 +162,9 @@ def leaderboard():
 
 @app.route('/events')
 def events():
-    return render_template('events.html')
+    with open("./data/events.json", encoding='utf-8') as f:
+        events = json.load(f)
+    return render_template('events.html', events=events)
 
 
 if __name__ == '__main__':

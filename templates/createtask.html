@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="bg-div">
+<div id="whitet">
+<div id="aut-div">
+<h1 id="h1aut">Создать задание</h1>
+
+<form action="" method="post" id="aut">
+    {{ form.hidden_tag() }}
+    {{ form.csrf_token }}
+    {% if message %}
+    <div class="alert alert-danger" role="alert">{{ message }}</div>
+    {% endif %}
+    <p>
+        {{ form.question.label }}<br>
+        {{ form.question(class="form-control") }}
+        {% for error in form.question.errors %}
+    <p class="alert alert-danger" role="alert">
+        {{ error }}
+    </p>
+    {% endfor %}
+    </p>
+    <p>
+        {{ form.answer1.label }}<br>
+        {{ form.answer1(class="form-control") }}<br>
+        {% for error in form.answer1.errors %}
+    <p class="alert alert-danger" role="alert">
+        {{ error }}
+    </p>
+    {% endfor %}
+    </p>
+    <p>
+        {{ form.answer2.label }}<br>
+        {{ form.answer2(class="form-control") }}<br>
+        {% for error in form.answer2.errors %}
+    <p class="alert alert-danger" role="alert">
+        {{ error }}
+    </p>
+    {% endfor %}
+    </p>
+    <p>
+        {{ form.answer3.label }}<br>
+        {{ form.answer3(class="form-control") }}<br>
+        {% for error in form.answer3.errors %}
+    <p class="alert alert-danger" role="alert">
+        {{ error }}
+    </p>
+    {% endfor %}
+    </p>
+    <p>
+        {{ form.correct.label }}<br>
+        {{ form.correct(class="form-control") }}<br>
+        {% for error in form.correct.errors %}
+    <p class="alert alert-danger" role="alert">
+        {{ error }}
+    </p>
+    {% endfor %}
+    <p>
+        {{ form.tag_id.label }}<br>
+        {{ form.tag_id(class="form-control") }}<br>
+        {% for error in form.tag_id.errors %}
+    <p class="alert alert-danger" role="alert">
+        {{ error }}
+    </p>
+    {% endfor %}
+    </p>
+    <p>{{ form.submit(type="submit", class="btn btn-primary", id="autbutton") }}</p>
+</form>
+</div>
+</div>
+</div>
+{% endblock %}
