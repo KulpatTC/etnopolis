@@ -7,6 +7,7 @@ import json
 from data import db_session
 from data.users import User
 from data.tasks import Task
+from api.api import blueprint
 
 from forms.login import LoginForm
 from forms.register import RegisterForm
@@ -17,6 +18,7 @@ app.config['SECRET_KEY'] = 'key'
 db_session.global_init("./db/mydatabase.db")
 login_manager = LoginManager()
 login_manager.init_app(app)
+app.register_blueprint(blueprint)
 
 
 @login_manager.user_loader
