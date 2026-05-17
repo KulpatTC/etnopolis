@@ -768,7 +768,8 @@ ul{
     justify-content: center;
     margin: auto;
     width: 600px;
-    height: 1100px;
+    height: 80vh;
+    min-height: 1000px;
     background-color: rgba(255, 255, 255, 0.541);
     border-radius: 40px;
     margin-top: 50px;
