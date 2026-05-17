@@ -856,6 +856,19 @@ ul{
     padding-bottom: 2.16vh;
 }
 
+#create{
+    margin-top: 7.6vh;
+    border-radius: 6vh;
+    background-color: #2C382F;
+    color: white;
+    font-family: 'Unbounded';
+    border-color: #2C382F;
+    width: 22.014vw;
+    font-size: 3.6vh;
+    height: 7.41vh;
+    margin-left: 38vw;
+}
+
 #ev1 p{
     font-size: 3.68vh;
 }
