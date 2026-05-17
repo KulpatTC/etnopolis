@@ -43,7 +43,7 @@ pip install -r requirements.txt
 python server.py
 ```
 
-Сайт будет доступен на `https://etnopolis-1--RomanMarasanov.replit.app`
+Сайт будет доступен на `https://localhost:80/`
 
 ## Авторы
 
