@@ -1,10 +1,5 @@
-SQLAlchemy
-Werkzeug
-Flask
-WTForms
-requests
-flask_login
-flask_restful
-sqlalchemy_serializer
-flask_wtf
-requests
+Flask~=3.1.3
+SQLAlchemy~=2.0.49
+Flask-Login~=0.6.3
+Werkzeug~=3.1.8
+WTForms~=3.2.2

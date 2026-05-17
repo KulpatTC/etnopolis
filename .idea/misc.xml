@@ -3,5 +3,8 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 virtualenv at C:\Users\gorol\OneDrive\Documents\succulent-innovative-motion-2025-10-02_141048\app\.venv" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (etnopolis)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (etnopolis)" project-jdk-type="Python SDK" />
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
 </project>

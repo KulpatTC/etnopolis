@@ -4,9 +4,9 @@ import os.path
 import flask
 from flask import jsonify
 
-from ..data import db_session
-from ..data.tasks import Task
-from ..data.tags import Tag
+from data import db_session
+from data.tasks import Task
+from data.tags import Tag
 
 blueprint = flask.Blueprint(
     'api',
